@@ -1,0 +1,17 @@
+<html>
+<frameset rows="30%">
+
+<frame src="meshead.html" name="topFrame" noresize>
+
+<frameset cols="30%, 70%">
+
+<frame src="meslink.html" name="leftFrame">
+
+
+
+<frame src="mesdesc.html" name="rightFrame">
+</frameset>
+<body bgcolor="linen">
+<center><h1><font color="brown">MES COLLEGE OF ENGINEERING</h1></center>
+</body>
+</html>
