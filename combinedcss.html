@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Combined CSS Example</title>
+
+  <!-- ✅ External CSS link -->
+  <link rel="stylesheet" type="text/css" href="externalcss.css">
+
+  <!-- ✅ Internal CSS -->
+  <style>
+    body {
+      background-color: #ffe8d6;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Internal CSS applied to h2 and ul */
+    h2 {
+      font-family: "Century Gothic";
+      color: #e09f3e;
+      text-align: center;
+    }
+
+    ul {
+      font-family: "Century Gothic";
+      color: #31572c;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ✅ External CSS (h1 and p styled via externalcss.css) -->
+  <h1><u>MES COLLEGE OF ENGINEERING</u></h1>
+
+  <p>
+    M.E.S College of Engineering, the first Engineering College established under the self-financing sector in Kerala, is situated on the beautiful and serene banks of Nila or Bharathapuzha. It was established as an institution with minority status in 1994.The college admits students from all backgrounds, with a special focus on educationally impoverished communities. The Fabrication Laboratory (FABLAB), the MES Innovation Centre, and the Community Development Centre are just a few of the institute's major off-campus facilities. The college currently offers eight undergraduate programmes, including a Bachelor of Architecture, as well as ten postgraduate programmes in Master of Engineering, Master of Computer Applications, Master of Business Administration, and Master of Architecture.
+  </p>
+
+  <!-- ✅ Internal CSS applied (h2 styled in <style> tag) -->
+  <h2>"Empower minds, transform lives"</h2>
+
+  <!-- ✅ Inline CSS applied directly to element -->
+  <h3 style="font-family:'Segoe Script'; color:teal;">Courses Offered:</h3>
+
+  <!-- ✅ External CSS applies to <ol> (font + color from externalcss.css) -->
+  <ol>
+    <li>MCA</li>
+    <li>MBA</li>
+    <li>B-TECH</li>
+  </ol>
+
+  <!-- ✅ Internal CSS applies to <ul> -->
+  <h3 style="font-family:'Segoe Script'; color:teal;">Facilities:</h3>
+  <ul>
+    <li>Modern Classrooms</li>
+    <li>Library</li>
+    <li>Gym</li>
+  </ul>
+
+</body>
+</html>
